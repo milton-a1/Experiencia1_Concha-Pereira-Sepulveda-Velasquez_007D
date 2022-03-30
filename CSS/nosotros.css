@@ -49,3 +49,8 @@
 #intro {
     margin-bottom: -7em;
 }
+
+img {
+    height: 500px;
+    width: 500px;
+}
