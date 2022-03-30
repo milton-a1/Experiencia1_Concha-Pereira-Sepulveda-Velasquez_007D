@@ -1,7 +1,3 @@
-.container-fluid{
-    background-color: green;
-}
-
 body{
     background-color: #EB984E;
 }
@@ -9,19 +5,6 @@ body{
 .carousel{
     margin: 50px;
     padding: 20px;
-}
-
-.nav-link{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: azure;
-}
-
-.nav-link:hover{
-    color: blue;
-}
-
-.navbar-brand{
-    color: azure;
 }
 
 .brand img{
@@ -57,4 +40,40 @@ h3 {
 h2{
     font-family: 'Times New Roman', Times, serif;
     color: aliceblue;
+}
+
+
+.navbar-brand{
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-enlace{
+    background: mediumpurple;
+    color: beige;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav-enlace:hover{
+    background: purple;
+
+}
+nav{
+    background: rgb(20, 88, 3) ;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.x{
+
+    background: mediumpurple;
+    color: beige;
+    padding: 10px 0;
+    border: 2px solid beige;
+    display: none;
+
 }
