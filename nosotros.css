@@ -1,7 +1,6 @@
-
 /* Featurettes
   ------------------------- */
-.featurette{
+.featurette {
     margin: -2em 3em -2em 3em;
 }
 
@@ -41,4 +40,12 @@
     .featurette-heading {
         margin-top: 7rem;
     }
+}
+
+#areaLink {
+    margin-top: -8em;
+}
+
+#intro {
+    margin-bottom: -7em;
 }
