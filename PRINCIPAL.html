@@ -10,24 +10,22 @@
 
 </head>
     <body>
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-md border-3">
-                <label for="" class="brand">
-                    <img src="IMG/patitas.jpg" alt=""></a>
-                </label>
-                    <div class="container-fluid">
-                        <a><h2>PATITAS</h2></a>
-                        <div id="#MenuNavegacion" class="collapse navbar-collapse">
-                            <ul class="navbar-nav ms-3">
-                                <li class="nav-item"><a class="nav-link" href="#" > INICIO</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#" > ¿QUIENES SOMOS?</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#" > GALERIA DE FOTOS</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
+        <nav>
+            <button class="x" onclick="accion()">Menú</button>
+            <a href="#" class="nav-enlace hide">Inicio</a>
+            <a href="#" class="nav-enlace hide">Quienes Somos</a>
+            <a href="#" class="nav-enlace hide">Galeria de fotos</a>
+        </nav>
     
+        <script>
+            function accion(){
+                console.log('it works');
+                var ancla = document.getElementsByClassName('nav-enlace');
+                for(var i = 0; i < ancla.length; i++){
+                    ancla[i].classList.toggle('hide');
+                } 
+            }
+        </script>
     
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -56,15 +54,21 @@
             </button>
           </div>
 
-    <section class="padre">
-        <p class="primero">
-            <h3>¡Hola!, ¿Estas buscando implementos para tu mascota y no sabes donde encontrarlos? No te preocupes porque... ¡PATITAS YA ESTA AQUI! :D <br>
-            PATITAS es un sitio web en donde podras encontrar implementos <br> para tu querida mascota, tales como bandanas, identificaciones, correas, etc.</h3>
-        </p>
+    <section class="padre flex grande">
 
-        <p class="segundo">
-            <h3>Aca encontraras productos de calidad para tu mascota a un precio muy accesible, y la harás muy feliz con tus compras C: ¿Que estas esperando? Compra en PATITAS ¡YA!</h3>
-        </p>
+        <div class="parrafos">
+            <p class="primero">
+                <h3>¡Hola!, ¿Estas buscando implementos para tu mascota y no sabes donde encontrarlos? No te preocupes porque... ¡PATITAS YA ESTA AQUI! :D <br>
+                PATITAS es un sitio web en donde podras encontrar implementos <br> para tu querida mascota, tales como bandanas, identificaciones, correas, etc.</h3>
+            </p>
+        </div>
+
+        <div class="parrafos">
+            <p class="segundo">
+                <h3>Aca encontraras productos de calidad para tu mascota a un precio muy accesible, y la harás muy feliz con tus compras C: ¿Que estas esperando? Compra en PATITAS ¡YA!</h3>
+            </p>
+        </div>
+        
     </section>
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

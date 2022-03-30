@@ -14,8 +14,6 @@ body{
 .nav-link{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: azure;
-    display: block;
-    padding: 10px 30px;
 }
 
 .nav-link:hover{
