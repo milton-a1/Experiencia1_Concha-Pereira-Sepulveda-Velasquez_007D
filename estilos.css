@@ -1,5 +1,5 @@
 body{
-    background-color: #EB984E;
+    background-color: #afafff;
 }
 
 .carousel{
@@ -108,4 +108,13 @@ nav{
         width: 100%;
         margin-bottom: 30px;
     }
+}
+
+#footer{
+    background: #000000;
+    color: azure;
+}
+
+img{
+    border-radius: 75px;
 }
