@@ -44,7 +44,6 @@ section{
 
 .navbar-brand{
     color: azure;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .nav-enlace{
@@ -113,6 +112,7 @@ nav{
 #footer{
     background: #000000;
     color: azure;
+    margin-top: 50px;
 }
 
 img{
