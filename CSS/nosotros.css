@@ -151,3 +151,13 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
   }
+
+
+.Pat{
+    width: 3em;
+    height: 3em;
+}
+
+body{
+    background-color: #afafff;
+}
