@@ -1,9 +1,5 @@
-.container-fluid{
-    background-color: green;
-}
-
 body{
-    background-color: #EB984E;
+    background-color: #afafff;
 }
 
 .carousel{
@@ -11,52 +7,118 @@ body{
     padding: 20px;
 }
 
-.nav-link{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: azure;
-    display: block;
-    padding: 10px 30px;
-}
-
-.nav-link:hover{
-    color: blue;
-}
-
-.navbar-brand{
-    color: azure;
-}
-
 .brand img{
     width: 60px;
 }
 
-.padre{
+.container{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.flex{
     display: flex;
-    padding-right: 90px;
+    flex-wrap: wrap;
 }
 
-.primero{
-    text-align: left;
-    margin: 30px;
-    padding: 10px;
-}
-
-.segundo{
-    margin: 30px;
-}
-
-h3 {
-    text-align: left;
-    background: #3cce37;
-    padding: 20px;
-    margin: 10px;
-    width: 55%;
+.titulo{
     color: azure;
-    border-radius: 17%;
+}
+
+section{
+    text-align: left;
+}
+
+.parrafo{
+    background: rgb(22, 173, 22);
+    color: azure;
+    border: 1px solid #000000;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px black;
+    width: 40%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
-h2{
+.navbar-brand{
+    color: azure;
     font-family: 'Times New Roman', Times, serif;
-    color: aliceblue;
+}
+
+.nav-enlace{
+    background: mediumpurple;
+    color: beige;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav-enlace:hover{
+    background: purple;
+
+}
+nav{
+    background: rgb(2, 73, 34) ;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.x{
+
+    background: mediumpurple;
+    color: beige;
+    padding: 10px 0;
+    border: 2px solid beige;
+    display: none;
+
+}
+
+
+@media (max-width: 500px) {
+    nav{
+    flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .x{
+        display: inline-block;
+    }
+    .hide{
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 1070px) {
+    .parrafo {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (max-width: 1070px) {
+    .parrafo {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+#footer{
+    background: #000000;
+    color: azure;
+}
+
+img{
+    border-radius: 75px;
+}
+
+.Pat{
+	width: 3em;
 }
