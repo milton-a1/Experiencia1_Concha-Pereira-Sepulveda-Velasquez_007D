@@ -62,7 +62,7 @@ nav{
     background: rgb(2, 73, 34) ;
     padding: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 
@@ -94,7 +94,7 @@ nav{
 
 }
 
-@media (max-width: 1070px) {
+@media (max-width: 450px) {
     .parrafo {
         width: 45%;
         margin-bottom: 30px;
@@ -121,4 +121,10 @@ img{
 
 .Pat{
 	width: 3em;
+}
+
+@media (max-width: 300px){
+    .nav{
+        width: 45%;
+    }
 }
