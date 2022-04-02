@@ -164,6 +164,7 @@ body{
 
 .imagenes{
     height: 50px;
+    display: inline-block;
 }
 
 #footer{
